@@ -1,0 +1,108 @@
+body{
+	margin: 1em;
+	width: 100%;
+}
+
+.al{
+	text-align: center;
+}
+
+.wrapper{
+	height: 600px;
+	margin: 1em;
+	float: left;
+}
+
+.con{
+	background-color: #5be0e5;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.con1{
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.t{
+    text-align: center;
+    padding: 1em;
+}
+
+img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.box1{
+	width: 100%;
+	height: 50%;
+	background-color: rgb(245, 221, 66);
+	box-sizing: border-box;
+	float: left;
+}
+
+.box2{
+	width: 50%;
+	height: 50%;
+	background-color: rgb(245, 221, 66);
+	box-sizing: border-box;
+	float: left;
+}
+
+.box3{
+	width: 50%;
+	height: 100%;
+	background-color: rgb(245, 221, 66);
+	box-sizing: border-box;
+	float: left;
+}
+
+.a{
+	padding-right: 1em;
+	padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.b{
+	padding-left: 1em;
+	padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.c{
+	padding: 1em;
+}
+
+.d{
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.e{
+	padding-right: 1em;
+	padding-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        width: 100%;
+    }
+    
+    .box3{
+        width: 100%;
+        height: 50%;
+    }  
+}
+
+@media screen and (min-width: 769px) {
+    .wrapper{
+        width: 30%;
+    }
+}
